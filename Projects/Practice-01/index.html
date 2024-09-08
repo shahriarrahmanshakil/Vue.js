@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue part-01</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    message:"This is Practice -01"
+                }
+            }
+        })
+        app.mount('#app');
+    </script>
+</body>
+</html>
