@@ -8,6 +8,7 @@
 <body>
     <div id="app">
         <h1>{{text}}</h1>
+        <h2>{{message}}</h2>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -16,7 +17,8 @@
         const app = Vue.createApp({
             data() {
                 return {
-                    text:"This is Text"
+                    text:"This is Text",
+                    message:"This is Massage"
                 }
             }
         })
