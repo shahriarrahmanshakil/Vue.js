@@ -1,5 +1,6 @@
 import AboutView from '@/views/pages/AboutView.vue'
 import BlogView from '@/views/pages/BlogView.vue'
+import ContactView from '@/views/pages/ContactView.vue'
 import FurnituresView from '@/views/pages/FurnituresView.vue'
 import HomeView from '@/views/pages/HomeView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -27,6 +28,11 @@ const router = createRouter({
       path:'/blog',
       name:'blog',
       component: BlogView
+    },
+    {
+      path:'/contact',
+      name:'contact',
+      component: ContactView
     }
   ]
 })

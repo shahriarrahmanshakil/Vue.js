@@ -32,7 +32,7 @@
                         <RouterLink class="nav-link" to="/blog">Blog</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <RouterLink class="nav-link" to="/contact">Contact Us</RouterLink>
                     </li>
                     </ul>
                 </div>
