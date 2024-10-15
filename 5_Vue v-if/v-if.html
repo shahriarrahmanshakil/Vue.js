@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-if</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Vue v-if Directive</h1>
+        <p v-if = "data>15">Hello World</p>
+        <p v-else-if = "data<11">Hello Bangladesh</p>
+        <p v-else>Hello Dhaka</p>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+           data(){
+            return{
+                data:16
+            }
+           } 
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>
